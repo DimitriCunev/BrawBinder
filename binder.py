@@ -1,18 +1,3 @@
-from PIL import ImageGrab
-from copy import deepcopy
-def FindColor(self,r,g,b):
-    amount = []
-    farr = []
-    accuracy = 8
-    image = ImageGrab.grab()
-    for x in range(100, image.size[0]-100,10):
-        for y in range(100,image.size[1]-100,10):
-            px = image.getpixel((x, y))
-            if px[1] == g:
-                amount.append([x,y])   
-    return amount
-
-
 from pynput import keyboard
 from pynput.keyboard import Key, Controller
 from copy import deepcopy
