@@ -1,0 +1,1 @@
+['down', 'down', 0], ['c', 'down', 39], ['c', 'up', 87], ['right', 'down', 567], ['z', 'down', 32], ['up', 'down', 0], ['down', 'up', 23], ['x', 'down', 0], ['z', 'up', 104], ['up', 'up', 0], ['x', 'up', 24], ['right', 'up', 0]
